@@ -34,7 +34,7 @@ def main(ticker: str, price: float, sector: str) -> None:
     #                       WRITE CODE HERE!!!
     #
     
-    message = ticker + "is " + price
+    message = ticker + " is " + price
     producer.publishOrder(message)
 
 if __name__ == "__main__":
